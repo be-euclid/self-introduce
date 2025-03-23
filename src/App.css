@@ -24,6 +24,16 @@
   color: white;
 }
 
+.light-mode {
+  background-color: #ffffff;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #1a202c;
+  color: white;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +45,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+.button-light {
+  background-color: #4CAF50;
+  margin-bottom: 16px;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.button-light:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}
+
+.button-light:active {
+  background-color: #388e3c;
+  transform: translateY(1px);
+}
+
+/* Dark Mode 버튼 스타일 */
+.button-dark {
+  background-color: #333;
+  margin-bottom: 16px;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.button-dark:hover {
+  background-color: #444;
+  transform: translateY(-2px);
+}
+
+.button-dark:active {
+  background-color: #222;
+  transform: translateY(1px);
 }
